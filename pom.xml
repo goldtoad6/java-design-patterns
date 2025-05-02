@@ -46,7 +46,7 @@
     <slf4j.version>2.0.17</slf4j.version>
 
     <!-- Other dependencies -->
-    <jacoco.version>0.8.12</jacoco.version>
+    <jacoco.version>0.8.13</jacoco.version>
     <commons-dbcp.version>1.4</commons-dbcp.version>
     <htmlunit.version>4.7.0</htmlunit.version>
     <gson.version>2.11.0</gson.version>
@@ -59,11 +59,11 @@
 
     <!-- Plugins -->
     <maven-surefire-plugin.version>3.5.2</maven-surefire-plugin.version>
-    <license-maven-plugin.version>4.6</license-maven-plugin.version>
+    <license-maven-plugin.version>5.0.0</license-maven-plugin.version>
     <maven-compiler-plugin.version>3.14.0</maven-compiler-plugin.version>
 
     <!-- SonarCloud -->
-    <sonar-maven-plugin.version>5.0.0.4389</sonar-maven-plugin.version>
+    <sonar-maven-plugin.version>5.1.0.4751</sonar-maven-plugin.version>
     <sonar.host.url>https://sonarcloud.io</sonar.host.url>
     <sonar.organization>iluwatar</sonar.organization>
     <sonar.projectKey>iluwatar_java-design-patterns</sonar.projectKey>
@@ -71,6 +71,7 @@
     <sonar.projectName>Java Design Patterns</sonar.projectName>
   </properties>
   <modules>
+
     <module>abstract-document</module>
     <module>abstract-factory</module>
     <module>active-object</module>
@@ -242,6 +243,9 @@
     <module>version-number</module>
     <module>virtual-proxy</module>
     <module>visitor</module>
+      <module>backpressure</module>
+      <module>actor-model</module>
+
   </modules>
   <repositories>
     <repository>
@@ -306,12 +310,6 @@
       <dependency>
         <groupId>org.junit.jupiter</groupId>
         <artifactId>junit-jupiter-engine</artifactId>
-        <version>${junit.version}</version>
-        <scope>test</scope>
-      </dependency>
-      <dependency>
-        <groupId>org.junit.jupiter</groupId>
-        <artifactId>junit-jupiter-params</artifactId>
         <version>${junit.version}</version>
         <scope>test</scope>
       </dependency>
@@ -480,7 +478,7 @@
       <plugin>
         <groupId>com.diffplug.spotless</groupId>
         <artifactId>spotless-maven-plugin</artifactId>
-        <version>2.44.3</version> <!-- Use latest version -->
+        <version>2.44.4</version> <!-- Use latest version -->
         <executions>
           <execution>
             <goals>
