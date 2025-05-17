@@ -5,7 +5,7 @@ description: "Explore the Prototype design pattern in Java with a comprehensive 
 category: Creational
 language: en
 tag: 
-  - Gang Of Four
+  - Gang of Four
   - Instantiation
   - Object composition
   - Polymorphism
@@ -155,10 +155,6 @@ Here's the console output from running the example.
 08:36:19.014 [main] INFO com.iluwatar.prototype.App -- Orcish warlord attacks with sword
 08:36:19.014 [main] INFO com.iluwatar.prototype.App -- Orcish wolf attacks with laser
 ```
-
-## Detailed Explanation of Prototype Pattern with Real-World Examples
-
-![alt text](./etc/prototype.urm.png "Prototype pattern class diagram")
 
 ## When to Use the Prototype Pattern in Java
 
