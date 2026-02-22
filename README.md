@@ -1,6 +1,6 @@
 # Design Patterns Implemented in Java
 
-![Java CI](https://github.com/iluwatar/java-design-patterns/workflows/Java%20CI/badge.svg)
+[![Java CI](https://github.com/iluwatar/java-design-patterns/workflows/Java%20CI/badge.svg)](https://github.com/iluwatar/java-design-patterns/actions/workflows/maven-ci.yml)
 [![License MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/iluwatar/java-design-patterns/master/LICENSE.md)
 [![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=iluwatar_java-design-patterns&metric=ncloc)](https://sonarcloud.io/dashboard?id=iluwatar_java-design-patterns)
 [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=iluwatar_java-design-patterns&metric=coverage)](https://sonarcloud.io/dashboard?id=iluwatar_java-design-patterns)
